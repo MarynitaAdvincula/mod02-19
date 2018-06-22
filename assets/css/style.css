@@ -1,0 +1,25 @@
+/*
+ *
+ * CSS Reset
+ *
+ */
+ * {
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ }
+
+/*
+ *
+ * General Rules
+ *
+ */
+ 
+body{
+ 	font-family: 'Playfair Display', serif;
+
+ }
+
+div#wrapper{
+	margin-top: 56px;
+}

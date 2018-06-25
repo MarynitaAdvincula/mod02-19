@@ -16,10 +16,92 @@
  */
  
 body{
- 	font-family: 'Playfair Display', serif;
+ 	font-family: 'PT Sans Narrow', sans-serif;
+}
 
- }
+div > div > div > div > a.headlink{
+	color: black;			
+}
 
-div#wrapper{
+div > div > div > div > a.headlink:hover{
+	color: lightgrey;
+	text-decoration: none; 
+}
+
+p.time{
+	font-size: 11px;
+	font-style: italic;
+	margin-top: 35px;
+}
+
+div.head1{
+	font-size: 25px;
+	line-height: 1;
+	margin-bottom: 20px;
+}
+
+p.paragraph{
+	margin-top: 25px;
+}
+
+div#newsletterSec{
 	margin-top: 56px;
+	width: 100%;	
+}
+.nlSection {
+    background: #f2f4f5;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 30px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.instagram {
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+.instagram .push{
+	position: absolute;
+	z-index: 99;
+	margin: 0 auto;
+	text-align: center;
+	top: 40%;
+	margin-top: -12px;
+	width: 100%;
+	height: 0;
+}
+
+.pic1 {
+	max-width: 100%;
+	height: 115px;
+	width: 277px;
+}
+
+.footer{
+	background-color: #212529;
+	width: 100%;
+}
+
+footer > div > ul > li > a.nav-link{
+	color:white;
+
+}
+footer > div > ul > li > a.nav-link:hover{
+	color:lightgrey;
+
+}
+
+.customEffect {
+	width: 	100px;
+}
+
+.customEffect:hover {
+	width: 	auto;
+	transition: 	width: 1s;
 }
